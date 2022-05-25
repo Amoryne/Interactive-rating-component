@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&family=Roboto&display=swap');
+
+body{
+    background-color:hsl(0, 0%, 3%);
+    margin: 0 auto;
+   
+}
+.container{
+    max-width: 330px;
+    margin:0 auto;
+    margin-top:100px;
+}
+.component{
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 10px;
+    padding:23px;
+}
+.star-container{
+    padding-bottom:10px;
+    img{
+        padding:15px;
+        border-radius: 30px;
+        background-color:hsl(213, 19%, 18%)
+    }
+}
+.title-container{
+    .title{
+        font-family: 'Overpass',sans-serif;
+        font-weight: 700;
+        color:hsl(0, 0%, 100%);
+    }
+}
+.texte-container{
+    .texte{
+        color:  hsl(216, 12%, 54%);
+        font-family: 'Overass',sans-serif;
+        font-weight: 400;
+        font-size:15px;
+        letter-spacing: 1px;
+    }
+}
+.note-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top:30px;
+
+    button{ 
+        
+         color:hsl(216, 12%, 54%);
+         padding:5%;
+         width:46px;
+         border-radius: 100%;
+         border:none;
+         background-color:hsl(213, 19%, 18%);
+         font-size: 15px;
+         &:hover{
+             background-color: hsl(216, 12%, 54%);
+             color:white;
+         }
+         &:focus{
+             background-color: hsl(25, 97%, 53%); 
+             color:white;       
+    }
+}}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top:23px;
+button{
+    background-color:hsl(25, 97%, 53%);
+    border:none;
+    padding:13px 120px;
+    border-radius: 40px;
+    color:hsl(0, 0%, 100%);
+    font-family: 'Overpass',sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size:13px;
+    &:hover{
+        background-color: hsl(0, 0%, 100%);
+        color:hsl(25, 97%, 53%);
+    }
+}
+}
