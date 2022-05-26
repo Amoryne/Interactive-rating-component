@@ -9,25 +9,29 @@ body{
     max-width: 330px;
     margin:0 auto;
     margin-top:100px;
+    
 }
 .component{
     background-color: hsl(216, 12%, 8%);
     border-radius: 10px;
     padding:23px;
+    min-height: 365px;
+    max-height: 365px;
 }
 .star-container{
     padding-bottom:10px;
+  
     img{
         padding:15px;
         border-radius: 30px;
-        background-color:hsl(213, 19%, 18%)
-    }
-}
+        background-color:hsl(213, 19%, 18%);
+}}
 .title-container{
     .title{
         font-family: 'Overpass',sans-serif;
         font-weight: 700;
         color:hsl(0, 0%, 100%);
+        font-size:28px;
     }
 }
 .texte-container{
@@ -54,6 +58,8 @@ body{
          border:none;
          background-color:hsl(213, 19%, 18%);
          font-size: 15px;
+         transition: background-color 320ms ease-in;
+         
          &:hover{
              background-color: hsl(216, 12%, 54%);
              color:white;
@@ -78,9 +84,59 @@ button{
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size:13px;
+    transition: background-color 330ms ease-in-out;
     &:hover{
         background-color: hsl(0, 0%, 100%);
         color:hsl(25, 97%, 53%);
+        
     }
 }
+}
+
+/**
+* ? NEW STYLE SUBMITTED STATE
+**/
+
+#new-title{
+        font-family: 'Overpass',sans-serif;
+        font-weight: 700;
+        color:hsl(0, 0%, 100%);
+        display:flex;
+        justify-content: center;
+        margin-bottom:-5px;
+}
+.new-texte{
+        color:  hsl(216, 12%, 54%);
+        font-family: 'Overass',sans-serif;
+        font-weight: 400;
+        font-size:15px;
+        letter-spacing: 1px;
+        display:flex;
+        justify-content: center;
+        text-align:center;
+        
+}
+.img-header{
+    display: flex;
+    justify-content: center;
+    img{
+        margin-top:15px;
+    }
+    
+}
+.coteYouChoose{
+    display: flex;
+    justify-content: center;
+    .new-choose{
+        margin-top:40px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 700;
+        font-size:15px;
+        letter-spacing: 0.5px;
+        color:hsl(25, 97%, 53%);
+        background-color: hsl(213, 19%, 18%);
+        padding:9px 20px;
+        border-radius:30px;
+        margin-bottom: 5px;
+    }
 }
