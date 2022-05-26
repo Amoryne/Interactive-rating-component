@@ -40,7 +40,7 @@ let newImg = document.createElement('img');
 newImg.setAttribute("class", "new-image");
 newImg.setAttribute("alt", "ceci est une image")
 //ON LUI ASSIGNE DU CONTENU
-newImg.src = '/assets/img/illustration-thank-you.svg';
+newImg.src = './assets/img/illustration-thank-you.svg';
 
 
 //ON CREER NEW ELEMENT QUI AFFICHE LA NOTE CHOISIE
