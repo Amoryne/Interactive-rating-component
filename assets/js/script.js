@@ -49,12 +49,12 @@ let newCoteChoose = document.createElement('p');
 newCoteChoose.setAttribute("class", "new-choose");
 
 
-
+let myCote="";
 //POUR CHAQUE COTE ON RECUPERE LE CHIFFRE
 cote.forEach(button => {
     button.addEventListener("click", e =>{
         //ON STOCK LE CHIFFRE FOCUS DANS UNE VARIABLE MYCOTE
-        let myCote=button.value;
+        myCote=button.value;
         console.log(myCote);
         //ON ACTIVE LE BOUTON SUBMIT ET ON CHANGE LE DOM
         btnSubmit.addEventListener("click", event => {
